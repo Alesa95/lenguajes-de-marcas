@@ -1,0 +1,55 @@
+.lista1 {
+    list-style-image: url('icono_pelicula.png');
+    list-style-position: inside;
+}
+
+.lista1::first-letter {
+    font-size: 1.5rem;
+}
+
+li::first-letter {
+    font-size: 1.5rem;
+}
+
+.lista1 li:nth-child(even) {
+    background-color: yellowgreen;
+    color: black
+}
+
+.lista1 li:nth-child(odd) {
+    background-color: grey;
+    color: white
+}
+
+ul {
+    background-color: light;
+}
+
+.p1 {
+    font-family: "Lucida Console", "Courier New", monospace;;
+}
+
+.p1::first-letter {
+    font-size: 1.5rem;
+}
+
+.p1::before {
+    content: "Aquí empieza el párrafo -";
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+}
+
+.p1::after {
+    content: "- Aquí acaba el párrado";
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+}
+
+/*p::before {
+    content: "Read this -";
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+}*/

@@ -1,0 +1,23 @@
+li:first-child {
+    color: red;
+}
+
+li:nth-child(2) {
+    color: green;
+}
+
+li:nth-child(even) {
+    color: pink;
+}
+
+/*.lista1 li:last-child {
+    color: blue;
+}*/
+
+a:visited {
+    color: green;
+}
+
+p:first-line {
+    color: blue;
+}

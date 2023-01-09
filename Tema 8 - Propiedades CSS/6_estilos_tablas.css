@@ -1,0 +1,25 @@
+.top caption {
+  caption-side: top;
+  background-color: yellow;
+  color: blue;
+  font-weight: bold;
+}
+  
+.bottom caption {
+  caption-side: bottom;
+  background-color: yellow;
+  color: blue;
+  font-weight: bold;
+}
+  
+table {
+  border: 2px solid red;
+}
+  
+td {
+  border: 2px solid blue;
+}
+  
+th {
+  color: red;
+}
