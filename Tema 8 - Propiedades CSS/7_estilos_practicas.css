@@ -1,13 +1,20 @@
 .lista1 {
     list-style-image: url('icono_pelicula.png');
     list-style-position: inside;
+    background-color: lightgray;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .lista1::first-letter {
     font-size: 1.5rem;
 }
 
-li::first-letter {
+.lista1 li {
+    font-size: 1rem;
+}
+
+.lista1 li::first-letter {
     font-size: 1.5rem;
 }
 
@@ -26,7 +33,12 @@ ul {
 }
 
 .p1 {
-    font-family: "Lucida Console", "Courier New", monospace;;
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: lightgray;
+}
+
+.p1::first-line {
+    text-transform: uppercase;
 }
 
 .p1::first-letter {
@@ -34,18 +46,18 @@ ul {
 }
 
 .p1::before {
-    content: "Aquí empieza el párrafo -";
+    content: "Sinopsis:";
     background-color: yellow;
     color: red;
     font-weight: bold;
 }
 
-.p1::after {
+/*.p1::after {
     content: "- Aquí acaba el párrado";
     background-color: yellow;
     color: red;
     font-weight: bold;
-}
+}*/
 
 /*p::before {
     content: "Read this -";
@@ -53,3 +65,22 @@ ul {
     color: red;
     font-weight: bold;
 }*/
+
+.tabla1 caption {
+    background-color: violet;
+    text-transform: uppercase; 
+    font-weight: bold;
+}
+
+.tabla1 th {
+    text-transform: uppercase;
+}
+
+.tabla1 tr:nth-child(2n+3) {
+    background-color: lightpink; 
+}
+
+.tabla1 tr:nth-child(2) {
+    background-color: blueviolet;
+}
+
