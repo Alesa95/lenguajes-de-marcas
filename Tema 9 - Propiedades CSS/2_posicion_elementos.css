@@ -1,0 +1,50 @@
+#caja-1 {
+    background-color: blue;
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+}
+
+#caja-2 {
+    background-color: red;
+    border: 2px solid green;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+#caja-3 {
+    background-color: yellow;
+    border: 2px solid purple;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+}
+
+#caja-4 {
+    background-color:orange;
+    border: 2px solid blueviolet;
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    top: 50px;
+    left: 50px;
+    z-index: 3;
+}
+
+.caja-flotante {
+    /*box-sizing: border-box;*/
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    float: left;
+    background-color: blue;
+    border: 5px solid red;
+    color: white;
+    margin: 10px;
+}
