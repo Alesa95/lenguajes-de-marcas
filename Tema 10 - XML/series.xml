@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="estilos_xml.css"?>
+
+<plataforma nombre="Netflix">
+    <anime>
+        <serie>
+            <titulo>Tenten Kakumei</titulo>
+            <capitulos>12</capitulos>
+        </serie>
+        <serie>
+            <titulo>Lycoris Recoil</titulo>
+            <capitulos>13</capitulos>
+        </serie>
+        <serie>
+            <titulo>Fruits Basket</titulo>
+            <capitulos>18</capitulos>
+        </serie>
+    </anime>
+</plataforma>

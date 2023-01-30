@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="estilos_xml.css"?>
+
+<!DOCTYPE biblioteca SYSTEM "biblioteca.dtd">
+
+<biblioteca user="alesa95">
+    <videojuegos>
+        <videojuego>
+            <titulo>Atelier Ryza</titulo>
+            <pegi>7</pegi>
+            <generos>
+                <genero>JRPG</genero>
+                <genero>Combate por turnos</genero>
+            </generos>
+            <idiomas>
+                <idioma>Español</idioma>
+                <idioma>Inglés</idioma>
+            </idiomas>
+            <distribuidora>
+                <nombre>Koei Techmo</nombre>
+                <pais>Japón</pais>
+            </distribuidora>
+        </videojuego>
+        <videojuego>
+            <titulo>Atelier Ryza 2</titulo>
+            <pegi>7</pegi>
+            <generos>
+                <genero>JRPG</genero>
+                <genero>Combate por turnos</genero>
+            </generos>
+            <idiomas>
+                <idioma>Español</idioma>
+                <idioma>Inglés</idioma>
+            </idiomas>
+            <distribuidora>
+                <nombre>Koei Techmo</nombre>
+                <pais>Japón</pais>
+            </distribuidora>
+        </videojuego>
+    </videojuegos>
+</biblioteca>
