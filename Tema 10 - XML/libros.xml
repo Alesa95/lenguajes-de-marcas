@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="estilos_xml.css" type="text/css"?>
+
+<!DOCTYPE libros SYSTEM "libro.dtd">
+
+<libros>
+    <libro>
+        <titulo>Fuego y Sangre</titulo>
+        <autor>George R.R. Martin</autor>
+        <editorial>Plaza y Janés</editorial>
+        <paginas>1120</paginas>
+    </libro>
+    <libro>
+        <titulo>Bloom into You</titulo>
+        <autor>Nio Nakatani</autor>
+        <editorial>Planeta Cómic</editorial>
+        <paginas>180</paginas>
+    </libro>
+</libros>
