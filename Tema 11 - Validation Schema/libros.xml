@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="estilos_xml.css" type="text/css"?>
+
+<libros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="libros.xsd">
+    <libro>
+        <titulo>Fuego y Sangre</titulo>
+        <autor>George R.R. Martin</autor>
+        <editorial>Plaza y Janés</editorial>
+        <genero>Fantasía</genero>
+        <paginas>1120</paginas>
+        <fecha>2020-01-01</fecha>
+    </libro>
+    <libro>
+        <titulo>Bloom into You</titulo>
+        <autor>Nio Nakatani</autor>
+        <editorial>Planeta Cómic</editorial>
+        <genero>Fantasía</genero>
+        <paginas>180</paginas>
+        <fecha>2020-01-01</fecha>
+    </libro>
+</libros>
