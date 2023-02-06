@@ -5,7 +5,17 @@
         <v:complexType>
             <v:sequence>
                 <v:element name="titulo" type="v:string" minOccurs="1" maxOccurs="1"/>
-                <v:element name="pegi" type="v:int" minOccurs="1" maxOccurs="1"/>
+                <v:element name="pegi" minOccurs="1" maxOccurs="1">
+                    <v:simpleType>
+                        <v:restriction base="v:string">
+                            <v:enumeration value="PEGI 3"/>
+                            <v:enumeration value="PEGI 7"/>
+                            <v:enumeration value="PEGI 12"/>
+                            <v:enumeration value="PEGI 16"/>
+                            <v:enumeration value="PEGI 18"/>
+                        </v:restriction>
+                    </v:simpleType>
+                </v:element>
                 <v:element name="genero" type="v:string" minOccurs="0" maxOccurs="unbounded"/>
             </v:sequence>
             <v:attribute name="videojuegoID" type="v:string"/> 

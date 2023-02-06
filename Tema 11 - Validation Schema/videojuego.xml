@@ -4,7 +4,7 @@
             xsi:noNamespaceSchemaLocation="videojuego.xsd" 
             videojuegoID="1">
     <titulo>Atelier Ryza</titulo>
-    <pegi>13</pegi>
+    <pegi>PEGI 12</pegi>
     <genero>JRPG</genero>
     <genero>Combate por turnos</genero>
 </videojuego>

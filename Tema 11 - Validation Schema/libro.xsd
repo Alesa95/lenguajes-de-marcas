@@ -5,7 +5,10 @@
         <xs:complexType>
             <xs:sequence>
               <xs:element name="titulo" maxOccurs="1" type="xs:string"/>
-              <xs:element name="autor" maxOccurs="1" type="xs:string"/>
+              <xs:choice>
+                <xs:element name="autor" maxOccurs="1" type="xs:string"/>
+                <xs:element name="autora" maxOccurs="1" type="xs:string"/>
+              </xs:choice>
               <xs:element name="editorial" maxOccurs="1" type="xs:string"/>
               <xs:element name="genero" maxOccurs="unbounded" type="xs:string"/>
               <xs:element name="paginas" maxOccurs="1" type="xs:int"/>
