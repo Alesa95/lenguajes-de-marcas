@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<v:schema xmlns:v="http://www.w3.org/2001/XMLSchema">
+    <v:element name="videojuego">
+        <v:complexType>
+            <v:sequence>
+                <v:element name="titulo" type="v:string" minOccurs="1" maxOccurs="1"/>
+                <v:element name="pegi" type="v:int" minOccurs="1" maxOccurs="1"/>
+                <v:element name="genero" type="v:string" minOccurs="0" maxOccurs="unbounded"/>
+            </v:sequence>
+            <v:attribute name="videojuegoID" type="v:string"/> 
+        </v:complexType>
+    </v:element>
+</v:schema>
