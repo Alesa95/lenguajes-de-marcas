@@ -1,0 +1,7 @@
+<!ELEMENT plataforma (serie)+>
+<!ATTLIST plataforma nombre CDATA #REQUIRED>
+
+<!ELEMENT serie (titulo, capitulos)>
+
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT capitulos (#PCDATA)>
