@@ -1,7 +1,9 @@
 <!ELEMENT biblioteca (videojuegos)+>
 <!ATTLIST biblioteca user CDATA #IMPLIED>
+
 <!ELEMENT videojuegos (videojuego)+>
 <!ELEMENT videojuego (titulo, pegi, generos+, idiomas+, distribuidora)>
+
 <!ELEMENT titulo (#PCDATA)>
 <!ELEMENT pegi (#PCDATA)>
 <!ELEMENT generos (genero)+>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-stylesheet type="text/css" href="estilos_xml.css"?>
 
-<!DOCTYPE biblioteca SYSTEM "biblioteca.dtd">
+<!DOCTYPE biblioteca SYSTEM "videojuegos.dtd">
 
 <biblioteca user="alesa95">
     <videojuegos>
