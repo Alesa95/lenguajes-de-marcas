@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!-- Nivel de dificultad: Medio -->
+
 <v:schema xmlns:v="http://www.w3.org/2001/XMLSchema">
     <v:element name="videojuego">
         <v:complexType>
             <v:sequence>
                 <v:element name="titulo" type="v:string" minOccurs="1" maxOccurs="1"/>
+                <v:element name="consola" minOccurs="1" maxOccurs="1">
+                    <v:simpleType>
+                        <v:restriction base="v:string">
+                            <v:enumeration value="Playstation 4"/>
+                            <v:enumeration value="Playstation 5"/>
+                            <v:enumeration value="Nintendo Switch"/>
+                            <v:enumeration value="XBOX Series X"/>
+                            <v:enumeration value="XBOX Series S"/>
+                        </v:restriction>
+                    </v:simpleType>
+                </v:element>
                 <v:element name="pegi" minOccurs="1" maxOccurs="1">
                     <v:simpleType>
                         <v:restriction base="v:string">
@@ -13,6 +26,14 @@
                             <v:enumeration value="PEGI 12"/>
                             <v:enumeration value="PEGI 16"/>
                             <v:enumeration value="PEGI 18"/>
+                        </v:restriction>
+                    </v:simpleType>
+                </v:element>
+                <v:element name="precio">
+                    <v:simpleType>
+                        <v:restriction base="v:decimal">
+                            <v:minInclusive value="0"/>
+                            <v:maxInclusive value="1000"/>
                         </v:restriction>
                     </v:simpleType>
                 </v:element>

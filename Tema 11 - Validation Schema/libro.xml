@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!-- Nivel de dificultad: Bajo -->
+
 <libro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
        xsi:noNamespaceSchemaLocation="libro.xsd">
     <titulo>Fuego y Sangre</titulo>

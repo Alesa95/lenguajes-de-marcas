@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!-- Nivel de dificultad: Medio -->
+
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:element name="libros">
+    <xs:element name="biblioteca">
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="libro" maxOccurs="unbounded">

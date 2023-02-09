@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="estilos_xml.css" type="text/css"?>
 
-<!DOCTYPE libros SYSTEM "libro.dtd">
+<!DOCTYPE libros SYSTEM "libros.dtd">
 
 <libros>
     <libro>

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="estilos_xml.css" type="text/css"?>
 
-<libros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-        xsi:noNamespaceSchemaLocation="libros.xsd">
+<!-- Nivel de dificultad: Medio -->
+
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="biblioteca.xsd">
     <libro>
         <titulo>Fuego y Sangre</titulo>
         <autor>George R.R. Martin</autor>
@@ -19,4 +21,4 @@
         <paginas>180</paginas>
         <fecha>2020-01-01</fecha>
     </libro>
-</libros>
+</biblioteca>

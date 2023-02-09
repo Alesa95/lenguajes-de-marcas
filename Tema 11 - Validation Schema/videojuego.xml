@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!-- Nivel de dificultad: Medio -->
+
 <videojuego xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
             xsi:noNamespaceSchemaLocation="videojuego.xsd" 
             videojuegoID="1">
     <titulo>Atelier Ryza</titulo>
+    <consola>Playstation 4</consola>
     <pegi>PEGI 12</pegi>
+    <precio>49.99</precio>
     <genero>JRPG</genero>
     <genero>Combate por turnos</genero>
 </videojuego>
