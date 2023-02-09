@@ -14,11 +14,11 @@
         <fecha>2020-01-01</fecha>
     </libro>
     <libro>
-        <titulo>Bloom into You</titulo>
-        <autor>Nio Nakatani</autor>
-        <editorial>Planeta Cómic</editorial>
-        <genero>Fantasía</genero>
-        <paginas>180</paginas>
+        <titulo>Otherside Picnic</titulo>
+        <autor>Iori Miyazawa</autor>
+        <editorial>J-Novel Club</editorial>
+        <genero>Ciencia Ficción</genero>
+        <paginas>450</paginas>
         <fecha>2020-01-01</fecha>
     </libro>
 </biblioteca>
