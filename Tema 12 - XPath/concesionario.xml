@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<concesionario>
+    <coche matricula="6732 KPC">
+        <marca>Seat Ateca</marca>
+        <combustible>Gasolina</combustible>
+        <precio>23.000€</precio>
+    </coche>
+    <coche matricula="8380 KWT">
+        <marca>Volkswagen Golf</marca>
+        <combustible>Diese</combustible>
+        <precio>25.000€</precio>
+    </coche>
+</concesionario>

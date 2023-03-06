@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="estilos_xml.css" type="text/css"?>
+
+<libros>
+    <libro>
+        <titulo>Fuego y Sangre</titulo>
+        <autor>George R.R. Martin</autor>
+        <editorial>Plaza y Janés</editorial>
+        <paginas>1120</paginas>
+    </libro>
+    <libro>
+        <titulo>Otherside Picnic</titulo>
+        <autor>Iori Miyazawa</autor>
+        <editorial>J-Novel Club</editorial>
+        <paginas>450</paginas>
+    </libro>
+</libros>
